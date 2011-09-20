@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57FDAD3414287C760020D25E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FDAD3314287C760020D25E /* UIKit.framework */; };
+		57FDAD3614287C760020D25E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FDAD3514287C760020D25E /* Foundation.framework */; };
+		57FDAD3814287C760020D25E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FDAD3714287C760020D25E /* CoreGraphics.framework */; };
+		57FDAD3E14287C760020D25E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57FDAD3C14287C760020D25E /* InfoPlist.strings */; };
+		57FDAD4014287C760020D25E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FDAD3F14287C760020D25E /* main.m */; };
+		57FDAD4414287C760020D25E /* ShadowButtonSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FDAD4314287C760020D25E /* ShadowButtonSampleAppDelegate.m */; };
+		57FDAD4714287C760020D25E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57FDAD4514287C760020D25E /* MainWindow.xib */; };
+		57FDAD5314287D450020D25E /* ShadowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FDAD5214287D450020D25E /* ShadowButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57FDAD2F14287C760020D25E /* ShadowButtonSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowButtonSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57FDAD3314287C760020D25E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57FDAD3514287C760020D25E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57FDAD3714287C760020D25E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57FDAD3B14287C760020D25E /* ShadowButtonSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShadowButtonSample-Info.plist"; sourceTree = "<group>"; };
+		57FDAD3D14287C760020D25E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57FDAD3F14287C760020D25E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57FDAD4114287C760020D25E /* ShadowButtonSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShadowButtonSample-Prefix.pch"; sourceTree = "<group>"; };
+		57FDAD4214287C760020D25E /* ShadowButtonSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShadowButtonSampleAppDelegate.h; sourceTree = "<group>"; };
+		57FDAD4314287C760020D25E /* ShadowButtonSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowButtonSampleAppDelegate.m; sourceTree = "<group>"; };
+		57FDAD4614287C760020D25E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		57FDAD5114287D450020D25E /* ShadowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowButton.h; sourceTree = "<group>"; };
+		57FDAD5214287D450020D25E /* ShadowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57FDAD2C14287C760020D25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FDAD3414287C760020D25E /* UIKit.framework in Frameworks */,
+				57FDAD3614287C760020D25E /* Foundation.framework in Frameworks */,
+				57FDAD3814287C760020D25E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57FDAD2414287C760020D25E = {
+			isa = PBXGroup;
+			children = (
+				57FDAD4D14287C930020D25E /* ShadowButton */,
+				57FDAD3914287C760020D25E /* ShadowButtonSample */,
+				57FDAD3214287C760020D25E /* Frameworks */,
+				57FDAD3014287C760020D25E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57FDAD3014287C760020D25E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57FDAD2F14287C760020D25E /* ShadowButtonSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57FDAD3214287C760020D25E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57FDAD3314287C760020D25E /* UIKit.framework */,
+				57FDAD3514287C760020D25E /* Foundation.framework */,
+				57FDAD3714287C760020D25E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57FDAD3914287C760020D25E /* ShadowButtonSample */ = {
+			isa = PBXGroup;
+			children = (
+				57FDAD4214287C760020D25E /* ShadowButtonSampleAppDelegate.h */,
+				57FDAD4314287C760020D25E /* ShadowButtonSampleAppDelegate.m */,
+				57FDAD4514287C760020D25E /* MainWindow.xib */,
+				57FDAD3A14287C760020D25E /* Supporting Files */,
+			);
+			path = ShadowButtonSample;
+			sourceTree = "<group>";
+		};
+		57FDAD3A14287C760020D25E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57FDAD3B14287C760020D25E /* ShadowButtonSample-Info.plist */,
+				57FDAD3C14287C760020D25E /* InfoPlist.strings */,
+				57FDAD3F14287C760020D25E /* main.m */,
+				57FDAD4114287C760020D25E /* ShadowButtonSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57FDAD4D14287C930020D25E /* ShadowButton */ = {
+			isa = PBXGroup;
+			children = (
+				57FDAD5114287D450020D25E /* ShadowButton.h */,
+				57FDAD5214287D450020D25E /* ShadowButton.m */,
+			);
+			path = ShadowButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57FDAD2E14287C760020D25E /* ShadowButtonSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57FDAD4A14287C760020D25E /* Build configuration list for PBXNativeTarget "ShadowButtonSample" */;
+			buildPhases = (
+				57FDAD2B14287C760020D25E /* Sources */,
+				57FDAD2C14287C760020D25E /* Frameworks */,
+				57FDAD2D14287C760020D25E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShadowButtonSample;
+			productName = ShadowButtonSample;
+			productReference = 57FDAD2F14287C760020D25E /* ShadowButtonSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57FDAD2614287C760020D25E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "@fannheyward";
+			};
+			buildConfigurationList = 57FDAD2914287C760020D25E /* Build configuration list for PBXProject "ShadowButtonSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57FDAD2414287C760020D25E;
+			productRefGroup = 57FDAD3014287C760020D25E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57FDAD2E14287C760020D25E /* ShadowButtonSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57FDAD2D14287C760020D25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FDAD3E14287C760020D25E /* InfoPlist.strings in Resources */,
+				57FDAD4714287C760020D25E /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57FDAD2B14287C760020D25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FDAD4014287C760020D25E /* main.m in Sources */,
+				57FDAD4414287C760020D25E /* ShadowButtonSampleAppDelegate.m in Sources */,
+				57FDAD5314287D450020D25E /* ShadowButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57FDAD3C14287C760020D25E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57FDAD3D14287C760020D25E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57FDAD4514287C760020D25E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57FDAD4614287C760020D25E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57FDAD4814287C760020D25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57FDAD4914287C760020D25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57FDAD4B14287C760020D25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowButtonSample/ShadowButtonSample-Prefix.pch";
+				INFOPLIST_FILE = "ShadowButtonSample/ShadowButtonSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57FDAD4C14287C760020D25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowButtonSample/ShadowButtonSample-Prefix.pch";
+				INFOPLIST_FILE = "ShadowButtonSample/ShadowButtonSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57FDAD2914287C760020D25E /* Build configuration list for PBXProject "ShadowButtonSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FDAD4814287C760020D25E /* Debug */,
+				57FDAD4914287C760020D25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57FDAD4A14287C760020D25E /* Build configuration list for PBXNativeTarget "ShadowButtonSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FDAD4B14287C760020D25E /* Debug */,
+				57FDAD4C14287C760020D25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57FDAD2614287C760020D25E /* Project object */;
+}
